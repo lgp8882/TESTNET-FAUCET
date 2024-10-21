@@ -64,7 +64,7 @@ def main():
     # 使用每个代理请求测试币
     for proxy in proxies:
         request_test_coins(proxy, recipient_address)
-        time.sleep(1)  # 添加1秒延时
+        # time.sleep(1)  # 添加1秒延时
 
 if __name__ == "__main__":
     main()
